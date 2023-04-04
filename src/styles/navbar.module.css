@@ -1,0 +1,72 @@
+/* Default styles */
+.nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 9999; /* Ensure the navbar is above other content */
+    justify-content: space-between;
+    background-color: gray;
+    align-items: center;
+    padding: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+  }
+  
+.nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-right: 15rem;
+  }
+  
+.nav li {
+    margin-left: 10rem;
+  }
+  
+.nav a {
+    text-decoration: none;
+    color: #333;
+  }
+.logoText {
+    position: absolute;
+    width: 110px;
+    height: 35px;
+    left: 219.75px;
+    top: 28.56px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 35px;
+    color: #fff;
+}  
+/* Styles for screens smaller than 768px */
+  @media screen and (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+    }
+  
+    .nav ul {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .nav li {
+      margin: 10px 0;
+    }
+  }
+
+/* for later use    */
+
+/* background: linear-gradient(118.98deg, #ED4690 -2.11%, #5522CC 63.58%);
+        mix-blend-mode: normal;
+        opacity: 0.9; */

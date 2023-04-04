@@ -2,6 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To keep track of all features for this project please visit our jira board at: https://eventbuster.atlassian.net/jira/software/projects/EV/boards/1/roadmap 
 ## Available Scripts
 
 In the project directory, you can run:
